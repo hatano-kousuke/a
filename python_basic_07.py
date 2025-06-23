@@ -1,4 +1,5 @@
 # my_name という変数に「 ATラボ 」という文字列を代入してください
-my_name='ATラボ'
+my_name = ('ATラボ')
 # my_name を用いて、「私はATラボです」となるように変数と文字列を連結して出力してください
-print('私は'+my_name+'です')
+my_name = ('私は' + my_name + 'です')
+print(my_name)
